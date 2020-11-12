@@ -1,0 +1,13 @@
+citHeader("To cite dynfactoR in publications use:")
+
+citEntry(entry = "Manual",
+  title        = "dynfactoR: linear dynamic factor models with Markov-switching",
+  author       = personList(as.person("Rytis Bagdziunas")),
+  year         = "2015",
+  url          = "https://github.com/rbagd/dynfactoR",
+
+  textVersion  =
+  paste("Rytis Bagdziunas (2015).",
+        "dynfactoR: linear dynamic factor models with Markov-switching",
+        "URL https://github.com/rbagd/dynfactoR")
+  )

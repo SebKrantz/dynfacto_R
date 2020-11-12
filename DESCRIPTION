@@ -1,0 +1,28 @@
+Package: dynfactoR
+Version: 0.1
+Date: 2017-01-31
+Title: Dynamic Factor Model Estimation for Nowcasting
+Authors@R: person("Rytis", "Bagdziunas", , "rytis.bagdziunas@uclouvain.be", role = c("aut", "cre"))
+Description: Dynamic factor models is a subset of more general state space
+    models. Dynamic factor models are commonly used in economics for short-term
+    forecasting due to possibility to summarize information from large datasets in
+    a small number of factors. This package provides an implementation for dynamic
+    factor models allowing for state variable to follow a vector autoregressive
+    process or for the model coefficients to exhibit Markov-switching pattern.
+Depends:
+    R (>= 3.0.0)
+Imports:
+    Rcpp,
+    MASS,
+    optimx
+LinkingTo: Rcpp, RcppArmadillo
+License: GPL-3
+LazyData: true
+Suggests:
+    xts,
+    testthat,
+    knitr
+VignetteBuilder: knitr
+URL: https://github.com/rbagd/dynfactoR
+BugReports: https://github.com/rbagd/dynfactoR/issues
+RoxygenNote: 6.0.1
